@@ -50,12 +50,15 @@ Resources defined in YAML: Deployment, Service, Namespace
 Start server 
 ```
  minikube start
-
 ```
 Apply yaml files
 ```
 kubectl apply -f namespace.yaml
 kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
-
+````
+Open Port 
 ```
+minikube service flask-service -n ivolve
+```
+<img width="898" height="200" alt="image" src="https://github.com/user-attachments/assets/e7422641-1db3-4447-95bc-5a773aa2517f" />
