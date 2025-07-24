@@ -40,3 +40,22 @@ docker run -p 5000:5000 flask-app
 ```
 
 <img width="986" height="646" alt="image" src="https://github.com/user-attachments/assets/f0d77ea1-a8b8-4ce7-8ccd-fcafffb22b41" />
+
+
+
+## 2- K8s 
+
+Resources defined in YAML: Deployment, Service, Namespace
+
+Start server 
+```
+ minikube start
+
+```
+Apply yaml files
+```
+kubectl apply -f namespace.yaml
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
+
+```
