@@ -62,3 +62,5 @@ Open Port
 minikube service flask-service -n ivolve
 ```
 <img width="898" height="200" alt="image" src="https://github.com/user-attachments/assets/e7422641-1db3-4447-95bc-5a773aa2517f" />
+<img width="568" height="172" alt="image" src="https://github.com/user-attachments/assets/ffb2779c-2d59-41e3-8c92-474e3e122af8" />
+
